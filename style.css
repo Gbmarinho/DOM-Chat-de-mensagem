@@ -46,6 +46,35 @@ main {
     font-size: 0.8em;
     justify-content: right;
 }
+
+.editar{
+    background-color: #F68B5D;
+    padding: 3px;
+    border: none;
+    border-radius: 2px;
+}
+button.editar:hover {
+    transform: scale(1.05);
+    transition: all 0.1s;
+}
+button.editar:active {
+    background-color: #e97949;
+    transition: all 0.2s;
+}
+.excluir{
+    background-color: #F65D5D;
+    padding: 3px;
+    border: none;
+    border-radius: 2px;
+}
+button.excluir:hover {
+    transform: scale(1.05);
+    transition: all 0.1s;
+}
+button.excluir:active {
+    background-color: #fc4242;
+    transition: all 0.2s;
+}
 #write{
     display: flex;
     justify-content: center;
@@ -72,5 +101,12 @@ main {
     border-radius: 5px;
     border: none;
     height: 25px;
-    
+}
+button.btn-envia:hover {
+    transform: scale(1.02);
+    transition: all 0.1s;
+}
+#textarea button:active{
+    background-color: #072440;
+    transition: all 0.2s;
 }

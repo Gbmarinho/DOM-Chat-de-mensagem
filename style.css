@@ -12,6 +12,7 @@ main {
     background-color: rgb(240, 240, 240);
     border: 1px solid black;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+    min-width: 370px;
 }
 #historico {
     padding-left: 15px;
@@ -32,7 +33,6 @@ main {
 }
 
 .container{
-
     margin-top: none;
     list-style: none;
 }

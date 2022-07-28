@@ -4,9 +4,73 @@ body {
 }
 main {
     height: 400px;
-    width: 28%;
+    width: 40%;
     margin: 80px auto;
-    background-color: grey;
+    background-color: rgb(240, 240, 240);
     border: 1px solid black;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+}
+#historico {
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    height: 10%;
+    background-color: #C4C4C4;
+}
+#content{
+    height: 90%;
+}
+#local-mensagens{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    overflow:auto;
+}
+
+.container{
+
+    margin-top: none;
+    list-style: none;
+}
+.escreve{
+    margin: 5px 12px 0px 12px;
+    text-align: justify;
+    padding: 8px;
+    font-size: 0.9em;
+    border: 1px solid black;
+}
+.button{
+    margin: 0 12px 0px 12px;
+    display: flex;
+    font-size: 0.8em;
+    justify-content: right;
+}
+#write{
+    display: flex;
+    justify-content: center;
+}
+#textarea {
+    width: 70%;
+    height: 106px;
+    background-color: #C4C4C4;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    display: flex;
+}
+#textarea textarea {
+    margin: 5px;
+    width: 80%;
+}
+#textarea button {
+    background-color: #0066CC;
+    color: white;
+    padding: 5px;
+    margin-top: 8px;
+    margin-left: 3px;
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+    
 }
